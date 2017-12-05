@@ -61,7 +61,7 @@ bool sorted(int a[], int n) {  //check if numbers are sorted
                 if(a[i] > a[i+1])
                         j = 0;
 }
-        if (j == 0)
+        if (j = 0)
                 return false;
         else
                 return true;
